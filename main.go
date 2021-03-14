@@ -9,7 +9,7 @@ import (
 )
 
 func homeLink(w http.ResponseWriter, r *http.Request) {
-	fmt.Printf(w, "Welcome Home!")
+	fmt.Fprintf(w, "Welcome Home!")
 }
 
 func main() {
